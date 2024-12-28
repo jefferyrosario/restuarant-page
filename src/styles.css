@@ -1,0 +1,26 @@
+body {
+    font-weight: 600;
+    background-color: aqua;
+    color: blue;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.buttons {
+    border-radius: 10px;
+    border-color: red;
+    color: red;
+    background-color: white;
+}
